@@ -22,10 +22,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         red.backgroundColor = UIColor.red
         red.alpha = lightOff
-        yellow.backgroundColor = UIColor.yellow
-        yellow.alpha = lightOff
+            yellow.backgroundColor = UIColor.yellow
+            yellow.alpha = lightOff
         green.backgroundColor = UIColor.green
         green.alpha = lightOff
+        red.layer.cornerRadius = 70
+
+        yellow.layer.cornerRadius = 70
+        green.layer.cornerRadius = 70
     }
 
     override func didReceiveMemoryWarning() {
