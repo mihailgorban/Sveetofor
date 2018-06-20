@@ -17,8 +17,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XSx-bi-Gee">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XSx-bi-Gee">
                                 <rect key="frame" x="109" y="620" width="208" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.64374025555068004" green="0.90404016154931466" blue="0.9123421308290155" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="25"/>
                                 <state key="normal" title="Start">
@@ -28,16 +29,19 @@
                                     <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o0b-fp-aii"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Wh-bW-UVx">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Wh-bW-UVx">
                                 <rect key="frame" x="109" y="446" width="195" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.083974745769999998" green="0.91234213080000004" blue="0.066597424929999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q02-HC-2pD">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q02-HC-2pD">
                                 <rect key="frame" x="109" y="277" width="195" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91234213080000004" green="0.90583367059999997" blue="0.22620964269999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ozK-RC-7YU">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ozK-RC-7YU">
                                 <rect key="frame" x="110" y="98" width="195" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91234213080000004" green="0.144710381" blue="0.11635753140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" none="YES"/>
@@ -46,20 +50,6 @@
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="1Wh-bW-UVx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="347" id="5MT-6H-hBg"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="q02-HC-2pD" secondAttribute="trailing" constant="110" id="5sL-D9-mMG"/>
-                            <constraint firstItem="ozK-RC-7YU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="109" id="AWg-Za-cfT"/>
-                            <constraint firstItem="XSx-bi-Gee" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="529" id="DaU-ma-Gn5"/>
-                            <constraint firstItem="XSx-bi-Gee" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="83" id="LQo-ci-Ux7"/>
-                            <constraint firstItem="1Wh-bW-UVx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="109" id="ajE-BH-Cmm"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XSx-bi-Gee" secondAttribute="trailing" constant="84" id="bqB-vk-cvw"/>
-                            <constraint firstItem="q02-HC-2pD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="109" id="dUy-In-9nN"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1Wh-bW-UVx" secondAttribute="trailing" constant="110" id="fJL-7g-2er"/>
-                            <constraint firstItem="ozK-RC-7YU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="11" id="hw7-XO-MI8"/>
-                            <constraint firstItem="q02-HC-2pD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="178" id="lTP-hc-Qnm"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ozK-RC-7YU" secondAttribute="trailing" constant="110" id="m17-Fw-khd"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
